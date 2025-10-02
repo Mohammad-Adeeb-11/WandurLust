@@ -1,0 +1,89 @@
+# WandurLust
+
+WandurLust is a web application that allows users to list hotels and explore travel accommodations. Users can create accounts, list their hotels, edit their listings, and receive reviews from other users. Built with **Node.js**, **Express**, **EJS**, **MongoDB Atlas**, and **Cloudinary**, it provides a seamless platform for hotel management and user interaction.
+
+---
+
+## 🛠 Technologies Used
+
+- **Backend**: Node.js, Express.js  
+- **Frontend**: EJS templates, CSS  
+- **Database**: MongoDB Atlas  
+- **File Storage**: Cloudinary (for images)  
+- **Authentication & Middleware**: Custom middleware for login, signup, and route protection
+
+---
+
+## 🗂 Project Structure
+WandurLust/   │ 
+              ├─ app.js  # Main application entry point
+              ├─ cloudConfig.js    # Cloudinary configuration
+              ├─ middleware.js       # Custom middleware (auth, validation)
+              ├─ routes/             # Application routes (auth, listings, reviews) 
+              ├─ controllers/        # Route controllers handling logic 
+              ├─ models/             # MongoDB models (User, Listing, Review) 
+              ├─ public/             # Static files (CSS, JS, images) 
+              ├─ views/              # EJS templates (frontend pages) 
+              └─ Utils/              # Utility function 
+---
+
+## ⚡ Features
+
+- **User Authentication**
+  - Sign up for new users
+  - Login for existing users
+  - Secure password handling
+
+- **Hotel Listings**
+  - Add new hotel listings with images
+  - Edit or delete existing listings
+  - Images stored on Cloudinary
+
+- **User Reviews**
+  - Visitors can review listed hotels
+  - Ratings and feedback system
+
+- **Database**
+  - All data stored in MongoDB Atlas 
+  - Collections: Users, Listings, Reviews
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v16+ recommended)  
+- npm (v8+)  
+- MongoDB Atlas account  
+- Cloudinary account
+
+
+📂 Routes Overview
+
+Auth Routes
+
+/signup – User registration
+
+/login – User login
+
+/logout – Logout user
+
+
+Listing Routes
+
+/listings – View all hotel listings
+
+/listings/new – Add a new listing
+
+/listings/:id/edit – Edit listing details
+
+/listings/:id – View single listing details
+
+📞 Contact
+
+Author: Mohammad Adeeb
+
+GitHub: https://github.com/Mohammad-Adeeb-11
+
+Email: mdadeeb7866@gmail.com
