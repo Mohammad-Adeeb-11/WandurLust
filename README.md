@@ -1,4 +1,4 @@
-no# WandurLust
+# WandurLust
 
 WandurLust is a web application that allows users to list hotels and explore travel accommodations. Users can create accounts, list their hotels, edit their listings, and receive reviews from other users. Built with **Node.js**, **Express**, **EJS**, **MongoDB Atlas**, and **Cloudinary**, it provides a seamless platform for hotel management and user interaction.
 
