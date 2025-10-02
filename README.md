@@ -49,37 +49,6 @@ WandurLust/   │
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js (v16+ recommended)  
-- npm (v8+)  
-- MongoDB Atlas account  
-- Cloudinary account
-
-
-📂 Routes Overview
-
-Auth Routes
-
-/signup – User registration
-
-/login – User login
-
-/logout – Logout user
-
-
-Listing Routes
-
-/listings – View all hotel listings
-
-/listings/new – Add a new listing
-
-/listings/:id/edit – Edit listing details
-
-/listings/:id – View single listing details
-
 📞 Contact
 
 Author: Mohammad Adeeb
